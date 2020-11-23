@@ -7,19 +7,20 @@
     text-align: center;
     font-weight: bold;
     line-height: 20px;
+    
 }
 .labelboxv{
     height: 125px;
     width: 32px;
     background-color: white;
     font-weight: bold;
-    text-align: left;
+    
 }
 .rotateh{
     transform: rotate(-90.0deg);
 }
 .gridlinev2{
-    width: 2px;
+    width: 3px;
     background-color: black;
 }
 .gridlinev{
@@ -34,14 +35,17 @@
     background-color: black;
     width: 22px;
     text-align: center;
+    color:white;
+    font-weight: bold;
 }
 .labelboxh{
-    
+
 }
 table{
-    border-collapse: separate;
-    text-indent: initial;
-    border-spacing: 2px;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
 }
 tr{
     display: table-row;
