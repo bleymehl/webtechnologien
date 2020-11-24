@@ -11,12 +11,11 @@
 }
 .labelboxv{
     height: 125px;
-    width: 32px;
+    width: 48px;
     background-color: white;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
-.rotateh{
+.rotate{
     transform: rotate(-90.0deg);
 }
 .gridlinev2{
@@ -39,12 +38,27 @@
     font-weight: bold;
 }
 .labelboxh{
-
+   width: 100px;
+   height: 32px;
+   background-color: white;
+   line-height: 16px;
+   padding-right: 4px;
+   text-align: right;
+   font-weight: bold; 
+}
+.solutionbox{
+    text-align: center;
+}
+.r{
+    background-color: green;
+}
+.w{
+    background-color: indianred;
 }
 table{
   display: table;
   border-collapse: separate;
-  box-sizing: border-box;
+  box-sizing: content-box;
   text-indent: initial;
 }
 tr{
@@ -59,4 +73,7 @@ td{
 #puzzletable tr td{
     font-size: 12px;
     color: black;
+}
+body{
+
 }
